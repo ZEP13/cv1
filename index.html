@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="fr-BE">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV ZEPHYR</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="navbox">
+        <div class="about">
+          <span class="navspan">Home</span>
+          <span class="navspan1">Formation</span>
+          <span class="navspan2">Experience</span>
+          <span class="navspan3">Contact</span>
+        </div>
+      </div>
+      <div class="profil">
+        <div class="textprof">
+          <h2>LATHUY ZEPHYR</h2>
+          <div class="socialIcon">
+            <a href="https://www.instagram.com/zephyr_130/" target="_blank"
+              ><img src="./icons8-insta-50.png" id="insta" alt="instagram"
+            /></a>
+            <a class="git" href="https://github.com/ZEP13" target="_blank"
+              ><img src="./icons8-github-50.png" alt="github"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="boxnav">
+      <div class="boxhome">
+        <span class="box">
+          <div class="topbox">
+            <h3>Home</h3>
+            <a href="#" class="closebox">
+              <svg
+                class="cross"
+                xmlns="http://www.w3.org/2000/svg"
+                height="26"
+                viewBox="0 96 960 960"
+                width="26"
+              >
+                <path
+                  d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"
+                />
+              </svg>
+            </a>
+          </div>
+        </span>
+        <div class="home">
+          <img
+            src="./Capture d’écran 2021-03-24 140902.png"
+            alt="zed"
+            class="homeimg"
+          />
+          <div class="cv">
+            <a href="./CV_2024_1.pdf" target="_blank" class="down"
+              >DOWNLOAD CV</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="boxform" id="box">
+        <span class="box">
+          <div class="topbox">
+            <h3>Ma Formation</h3>
+            <a href="#" class="closebox1">
+              <svg
+                class="cross"
+                xmlns="http://www.w3.org/2000/svg"
+                height="26"
+                viewBox="0 96 960 960"
+                width="26"
+              >
+                <path
+                  d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"
+                />
+              </svg>
+            </a>
+          </div>
+        </span>
+        <div class="forma">
+          <li>Option Sciences Appliquées (CESS) Juin 2020</li>
+          <li>
+            Sciences informatiques Ucl (Non Diplômé) de Sept. 2020 à Sept.2023
+          </li>
+          <li>Developpeur Web ifapme E6K (En cours)</li>
+        </div>
+      </div>
+      <div class="boxexp" id="box">
+        <span class="box">
+          <div class="topbox">
+            <h3>Experience</h3>
+            <a href="#" class="closebox2">
+              <svg
+                class="cross"
+                xmlns="http://www.w3.org/2000/svg"
+                height="26"
+                viewBox="0 96 960 960"
+                width="26"
+              >
+                <path
+                  d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="compbar">
+            <div class="competence">
+              <sp class="pit"
+                >Python
+                <span class="tooltip"
+                  >Maitrise des bases jusqu'au class et heritage</span
+                ></sp
+              >
+              <sp>HTML</sp>
+              <sp>CSS</sp>
+              <sp class="pit"
+                >JavaScript
+                <span class="tooltip">Maitrise variables et valeurs</span></sp
+              >
+            </div>
+            <div class="barcontainer">
+              <div class="bar"><div class="progresse"></div></div>
+              <div class="bar"><div class="progresse"></div></div>
+              <div class="bar"><div class="progresse"></div></div>
+              <div class="bar"><div class="progresse"></div></div>
+            </div>
+          </div>
+          <div class="compbar">
+            <div class="competence">
+              <sp>Francais</sp>
+              <sp>Anglais</sp>
+            </div>
+            <div class="barcontainer">
+              <div class="bar1"><div class="progresse1"></div></div>
+              <div class="bar1"><div class="progresse1"></div></div>
+            </div>
+          </div>
+        </span>
+      </div>
+      <div class="boxcontact" id="box">
+        <span class="box">
+          <div class="topbox">
+            <h3>Contacte</h3>
+            <a href="#" class="closebox3">
+              <svg
+                class="cross"
+                xmlns="http://www.w3.org/2000/svg"
+                height="26"
+                viewBox="0 96 960 960"
+                width="26"
+              >
+                <path
+                  d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"
+                />
+              </svg>
+            </a>
+          </div>
+        </span>
+
+        <form class="priseContacte">
+          <input
+            required
+            autocomplete="organization"
+            id="conta"
+            type="given-name"
+            name="nomEntreprise"
+            minlength="2"
+            maxlength="25"
+            placeholder="Nom Entreprise"
+          />
+          <input
+            required
+            autocomplete="email"
+            id="mail"
+            type="email"
+            name="mail"
+            placeholder="Votre aderesse mail"
+          />
+          <textarea
+            name="textearea"
+            id="textearea"
+            placeholder="Votre message"
+          ></textarea>
+          <input type="hidden" name="_captcha" value="false" />
+          <input
+            id="date"
+            type="tel"
+            name="date"
+            autocomplete="tel-country-code"
+            placeholder=" ex: +32 *** ** ** **"
+          />
+          <button>
+            <div class="svg-wrapper-1">
+              <div class="svg-wrapper">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="24"
+                  height="24"
+                >
+                  <path fill="none" d="M0 0h24v24H0z"></path>
+                  <path
+                    fill="currentColor"
+                    d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <span>Envoyer</span>
+          </button>
+        </form>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
